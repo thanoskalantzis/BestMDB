@@ -35,7 +35,7 @@ A plethora of technologies were used to build this Project:
 1. JavaScript
 2. CSS
 3. HTML
-4. OMDb API
+4. OMDb RESTful API
 
 # Disclaimer
 <strong>
