@@ -1,0 +1,48 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="OMDB, API, BestMDB, Movies, Search">
+        <meta name="keywords" content="OMDB, API, BestMDB, Movies, Search">
+        <meta name="author" content="thanoskalantzis">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="lodash.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>BestMDB</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html" class="link_to_index"><img src="images/logo.png" alt="BestMDB" id="logo_img"></a>
+            <span id="logo_text"><a href="index.html" class="link_to_index">BestMDB</a></span>
+        </header>
+
+        <br />
+
+        <div id="search">
+            <input type="text" placeholder="Search a movie..." id="search_bar" onkeyup="performQuery()">
+        </div>
+
+        <br />
+
+        <div id="info_query"></div>
+
+        <br />
+
+        <pre id="results_list"></pre>
+
+
+
+        <div id="entire_movie_area">
+            <pre id="movie_title_area"></pre>
+            <pre id="main_info_area"></pre>
+            <div id="poster_area"></div>
+            <pre id="extra_info_area"></pre>
+        </div>
+
+    </body>
+</html>
+	
